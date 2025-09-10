@@ -1,0 +1,15 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  bin = "tmp\\main.exe"
+  cmd = "go build -o tmp\\main.exe main.go"
+  exclude = ["tmp/*", "client/*"]
+  include = ["**/*.go"]
+  ignore = ["tmp/*"]
+
+[log]
+  time = true
+
+[run]
+  cmd = "tmp\\main.exe"
