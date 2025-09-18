@@ -1,8 +1,7 @@
-Got it 👍 — here’s a detailed `README.md` in **GitHub Markdown** style for your project. It covers the purpose, setup, dependencies, usage, routes, and development notes.
 
 ---
 
-```markdown
+
 # 📝 Go Fiber MongoDB Todo API
 
 A simple RESTful **Todo API** built with [Go Fiber](https://github.com/gofiber/fiber) and [MongoDB](https://www.mongodb.com/).  
@@ -12,15 +11,13 @@ This project demonstrates basic CRUD operations (`Create`, `Read`, `Update`, `De
 
 ## 📂 Project Structure
 
-```
-
-.
+```bash
 ├── .air.toml        # Air configuration file (for live reloading during development)
 ├── go.mod           # Go module file (project dependencies & module name)
 ├── go.sum           # Dependency checksums
 └── main.go          # Application entry point
+```
 
-````
 
 ---
 
